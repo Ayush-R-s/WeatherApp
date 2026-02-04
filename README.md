@@ -1,36 +1,142 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌤️ Weather Forecast Web App
 
-## Getting Started
+A modern and responsive **Weather Forecast Web Application** built using **Next.js** and **TypeScript**.  
+This application provides **real-time weather data**, **hourly updates**, and a **7-day forecast** using the **OpenWeatherMap API**.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://pp-5pr3.onrender.com
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Preview
+![Weather App Preview](./screenshot.png)
+![Weather App Preview](./screenshot1.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Framework:** Next.js  
+- **Language:** TypeScript  
+- **Styling:** Tailwind CSS  
+- **API:** OpenWeatherMap  
+- **Deployment:** Render  
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 API Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### OpenWeatherMap API
 
-## Deploy on Vercel
+- Current Weather Data API  
+- 5 Day / 3 Hour Forecast API  
+- 7 Day Forecast API  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+API Documentation:  
+https://openweathermap.org/api
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## ✨ Features
+
+- City-based weather search  
+- Real-time current weather data  
+- Hourly weather forecast  
+- 7-day weather forecast  
+- Temperature and feels-like temperature  
+- Wind speed, humidity, visibility, and air pressure  
+- Sunrise and sunset timings  
+- Fully responsive UI for mobile and desktop  
+
+
+
+## 📂 Project Structure
+    WEATHERAPP/
+    ├── public/
+    ├── src/
+    │   ├── app/
+    │   │   ├── atoms.ts
+    │   │   ├── favicon.ico
+    │   │   ├── globals.css
+    │   │   ├── layout.tsx
+    │   │   ├── page.tsx
+    │   │   └── Providers.tsx
+    │   ├── components/
+    │   │   ├── Container.tsx
+    │   │   ├── ForecastWeatherDetail.tsx
+    │   │   ├── Navbar.tsx
+    │   │   ├── Searchbox.tsx
+    │   │   ├── WeatherDetails.tsx
+    │   │   └── WeatherIcon.tsx
+    │   └── utils/
+    ├── .env.example
+    ├── .gitignore
+    ├── eslint.config.mjs
+    ├── next-env.d.ts
+    ├── next.config.ts
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.js
+    ├── README.md
+    ├── tailwind.config.js
+    └── tsconfig.json
+
+
+## 🔑 Environment Variables
+
+Create a `.env.local` file in the root directory and add your OpenWeatherMap API key.
+
+    NEXT_PUBLIC_OPENWEATHER_API_KEY=your_api_key_here
+
+Get your API key from:  
+https://openweathermap.org/api
+
+
+## ▶️ Getting Started
+
+### Clone the Repository
+
+    git clone https://github.com/your-username/weather-app.git
+
+### Navigate to the Project Directory
+
+    cd WeatherApp
+
+### Install Dependencies
+
+    npm install
+
+### Run the Development Server
+
+    npm run dev
+
+The application will run at:
+
+    http://localhost:3000
+
+
+## 🚀 Deployment
+
+This project is deployed using **Render**.
+
+### Build Command
+
+    npm run build
+
+### Start Command
+
+    npm start
+
+
+## 🤝 Contributing
+
+Contributions are welcome.  
+Fork the repository and submit a pull request for improvements or bug fixes.
+
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+
+## 👨‍💻 Author
+
+Ayush Thomas  
+2nd Year BTech Student
+Kerala, India  
