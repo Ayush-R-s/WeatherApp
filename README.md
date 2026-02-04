@@ -5,7 +5,7 @@ This application provides **real-time weather data**, **hourly updates**, and a 
 
 ## 🚀 Live Demo
 
-https://pp-5pr3.onrender.com
+https://weatherapp-5pr3.onrender.com
 
 
 ## 📸 Preview
