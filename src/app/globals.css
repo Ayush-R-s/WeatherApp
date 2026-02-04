@@ -2,3 +2,30 @@
 @tailwind component;
 @tailwind utilities;
 
+/* styles/responsive.css */
+
+/* Mobile */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
