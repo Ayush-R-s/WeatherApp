@@ -129,6 +129,10 @@ This project is deployed using **Render**.
 Contributions are welcome.  
 Fork the repository and submit a pull request for improvements or bug fixes.
 
+## 🙏 Acknowledgements
+
+This project was built while learning web development through tutorials provided by freeCodeCamp.
+The code was written and adapted for educational purposes.
 
 ## 📄 License
 
